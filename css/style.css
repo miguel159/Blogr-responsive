@@ -149,6 +149,11 @@ body {
   margin-bottom: 40px;
 }
 
+.designed__subtitle {
+    font-size: 1.5rem;
+    color: var(--color-v-blue);
+    text-align: center;
+}
 
 /* ---------------- */
 
@@ -277,5 +282,26 @@ body {
         padding-left: 30px ;
         color: var(--light-red);
         border-radius: 30px;
+    }
+
+    .hero__title {
+        font-size: 4rem;
+    }
+
+    /* ----------------- */
+
+    .designed__container {
+        padding-top: 80px;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
+    .designed__illustration {
+        width: 50%;        
+    }
+
+    .designed__texts {
+        width: 45%;
     }
 }
